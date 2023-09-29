@@ -80,10 +80,10 @@
 *Последовательность действий:*
 
 
-git init
-git add .
-git commit -m 'Your Commit Text'
-git push -u origin master
+git init <br>
+git add . <br>
+git commit -m 'Your Commit Text' <br>
+git push -u origin master <br>
 
 
 **Связь с удаленным репозиторием**
