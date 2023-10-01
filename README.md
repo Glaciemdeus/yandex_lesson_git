@@ -140,3 +140,16 @@ git push -u origin master <br>
 
 
 git clone 'your_repository_name' 
+
+
+###**—хема коммитов**
+
+
+
+```mermaid
+flowchart TD
+    A[untracket (неотслеживаемый)] -->git add --> B{staged(в списке на коммит)};
+    B --> git changed --> C[modified];
+    C --> git add --> B
+    B --> git commit --> D[tracked]
+    D --> changes -->C
